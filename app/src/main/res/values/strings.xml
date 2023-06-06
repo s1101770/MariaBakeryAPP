@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MariaBakery</string>
+
+    <string-array name="note_title_text">
+        <item>瑪利媽媽經典麵包</item>
+        <item>陽光百果</item>
+        <item>黑五寶</item>
+        <item>葵花麵包</item>
+        <item>起酥肉鬆</item>
+        <item>不脹氣吐司</item>
+    </string-array>
+
+    <string-array name="note_detail_text">
+        <item>50</item>
+        <item>60</item>
+        <item>50</item>
+        <item>70</item>
+        <item>50</item>
+        <item>80</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

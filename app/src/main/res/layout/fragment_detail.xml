@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewDetail"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="50dp"
+            android:textSize="20dp"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            >
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="請輸入數量"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="購買" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
